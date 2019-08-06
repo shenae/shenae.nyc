@@ -48,6 +48,9 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#portfolio" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
@@ -125,6 +128,9 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#resume" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
@@ -136,6 +142,8 @@ function App() {
       <h2 id="title">Resume</h2>
       <p>👩🏾‍💻 As both a manager with over 10 years experience in the hospitality industry and a developer, I believe the best products and services focus on relationship building and customer service.</p>
       <p>📄 Take a look at my resume <a href="https://www.docdroid.net/Qixrk1g/shenaesimmonsfseresume.pdf" target="blank" alt="my resume">here</a>.</p>
+      <br />
+      <br />
       <img src={imgReact} />
       <img src={javascript} />
       <img src={html}/>
