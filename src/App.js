@@ -54,8 +54,8 @@ function App() {
     </div>
   </section>
 
-  <section class="wrapper style1 align-center" id="portfolio">
-    {/* Portfolio */}
+ {/* Portfolio */}
+    <section class="wrapper style1 align-center" id="portfolio">
     <h2 id="title">Portfolio</h2>
       <div class="gallery style1 small onscroll-fade-in">
         <article>
@@ -107,7 +107,7 @@ function App() {
           </div>
         </article>
         <article>
-          <a href="http://reciplease.surge.sh" class="image" target="blank">
+          <a href="https://loving-shannon-2e1a10.netlify.com/" class="image" target="blank">
             <img src={jsScreenshot} alt="screenshot of the website" />
           </a>
           <div class="caption">
@@ -119,6 +119,7 @@ function App() {
           </div>
         </article>
       </div>
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#resume" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>

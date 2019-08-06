@@ -118,7 +118,7 @@ input, select, textarea {
 
 #title {
 	font-family: 'Tantinotes', 'Courier New', Courier, monospace;
-	font-size: 50px;
+	font-size: 75px;
 }
 
 .top-left {
@@ -133,7 +133,7 @@ input, select, textarea {
   
 
 	html {
-		font-size: 18pt;
+		font-size: 20pt;
 	}
 
 		@media screen and (max-width: 1680px) {
