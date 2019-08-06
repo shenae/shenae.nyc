@@ -45,6 +45,9 @@ function App() {
       <p>👋🏾 Hello! I'm Shenae, a resourceful full stack engineer based in NYC 🗽</p>
       <p>🚴🏾‍ I try to <a href ="https://www.strava.com/athletes/24985427" target="blank">bike</a> as much as I can. I love to travel to experience different cultures and I speak 🇺🇸 🇫🇷 🇪🇸 🇯🇵.</p>
       <p>👩🏾‍🍳 I enjoy cooking at home, going to movies with friends, and coding, of course 🖥️.</p>
+      <br />
+      <br />
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#portfolio" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
@@ -120,6 +123,8 @@ function App() {
         </article>
       </div>
       <br />
+      <br />
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#resume" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
@@ -139,6 +144,9 @@ function App() {
       <img src={node}/>
       <img src={ruby}/>
       <ul class="actions stacked">
+      <br />
+      <br />
+      <br />
         <li><a href="#contact" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
     </div>
