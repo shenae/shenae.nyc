@@ -57,7 +57,7 @@ function App() {
  {/* Portfolio */}
     <section class="wrapper style1 align-center" id="portfolio">
     <h2 id="title">Portfolio</h2>
-      <div class="gallery style1 small onscroll-fade-in">
+      <div class="gallery style1 medium onscroll-fade-in">
         <article>
           <a href="http://circumvelo.herokuapp.com" class="image" target="blank">
             <img src={circumveloScreenshot} alt="thumbnail of my circumvelo website" />
