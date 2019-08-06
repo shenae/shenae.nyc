@@ -3,6 +3,18 @@ import './App.css';
 import imgBanner from './images/imageBanner.jpg';
 import imgAbout from './images/imageAbout.jpg';
 import imgPortfolio from './images/imagePortfolio.jpg';
+import circumveloScreenshot from './images/circumvelo_screenshot.png';
+import made2fitScreenshot from './images/made2fit_screenshot.png';
+import recipleaseScreenshot from './images/reciplease_screenshot.png';
+import jsScreenshot from './images/javascript_to_screen.png';
+import reluxScreenshot from './images/relux_screenshot.png';
+import css from './images/css.png';
+import html from './images/html.png';
+import javascript from './images/javascript.png';
+import node from './images/node.png';
+import postgresql from './images/postgresql.png';
+import imgReact from './images/react.png';
+import ruby from './images/ruby_on_rails.png';
 
 function App() {
   return (
@@ -10,284 +22,150 @@ function App() {
       <div id="wrapper" class="divided">
 {/* Banner */}
   <section class="banner style2 fullscreen image-position-center content-align-right onload-content-fade-up">
-    <div class="content">
-      <h1 id="title">Shenae.NYC</h1>
-      <ul class="icons">
-      <li><a href="https://www.docdroid.net/Qixrk1g/shenaesimmonsfseresume.pdf" alt="my resume"><i class="fa fa-folder"></i></a></li>
+    <div class="image">
+      <img src={imgBanner} alt="picture of me in front of graffiti" />
+      <div class="top-left"><h1 class="content-align-center" id="title">Shenae.NYC</h1>
+      <ul class="icons" id="center-icons">
+        <li><a href="https://www.docdroid.net/Qixrk1g/shenaesimmonsfseresume.pdf" target="blank" alt="my resume"><i class="fa fa-folder"></i></a></li>
         <li><a href="http://www.github.com/shenae" class="icon brands style1 fa-github"><span class="label">GitHub</span></a></li>
         <li><a href="https://www.linkedin.com/in/shenae-simmons/" class="icon brands style1 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
         <li><a href="mailto:hello@shenae.nyc" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="actions stacked" id="center-icons">
+        <li><a href="#about" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
-      {/* </p> */}
-      <ul class="actions stacked">
-        <li><a href="#first" class="button primary small smooth-scroll-middle">More <i class="far fa-grin-beam"></i></a></li>
-      </ul>
-    </div>
-    <div class="image">
-      <img src={imgBanner} alt="picture of me in front of graffiti" />
+      
+      </div>
     </div>
   </section>
 {/* About */}
-  <section class="spotlight style2 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
+  <section class="spotlight style2 orient-left content-align-left image-position-center onscroll-image-fade-in" id="about">
     <div class="content">
       <h2 id="title">About</h2>
-      <p>👋🏾 Hello! I'm Shenae, a resourceful full stack engineer and graduate of General Assembly's Software Engineering Immersive.</p>
-      <p>👩🏾‍💻 As both a manager with over 10 years experience in the hospitality industry and a developer, I believe the best products and services emphasize on relationship building and customer service.</p>
-      <ul class="actions stacked">
-        <li><a href="#" class="button">Portfolio <i class="fas fa-desktop"></i></a></li>
+      <p>👋🏾 Hello! I'm Shenae, a resourceful full stack engineer based in NYC 🗽</p>
+      <p>🚴🏾‍ I try to <a href ="https://www.strava.com/athletes/24985427" target="blank">bike</a> as much as I can. I love to travel to experience different cultures and I speak 🇺🇸 🇫🇷 🇪🇸 🇯🇵.</p>
+      <p>👩🏾‍🍳 I enjoy cooking at home, going to movies with friends, and coding, of course 🖥️.</p>
+      <ul class="actions stacked" id="center-icons">
+        <li><a href="#portfolio" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
     </div>
     <div class="image">
       <img src={imgAbout} alt="picture of me leaning in front of graffiti" />
     </div>
   </section>
-{/* Five */}
-  <section class="wrapper style1 align-center">
-    <div class="inner">
-      <h2>Massa sed condimentum</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-    </div>
 
-    {/* Gallery */}
-      <div class="gallery style2 medium lightbox onscroll-fade-in">
+  <section class="wrapper style1 align-center" id="portfolio">
+    {/* Portfolio */}
+    <h2 id="title">Portfolio</h2>
+      <div class="gallery style1 small onscroll-fade-in">
         <article>
-          <a href="images/gallery/fulls/01.jpg" class="image">
-            <img src="images/gallery/thumbs/01.jpg" alt="" />
+          <a href="http://circumvelo.herokuapp.com" class="image" target="blank">
+            <img src={circumveloScreenshot} alt="thumbnail of my circumvelo website" />
           </a>
           <div class="caption">
-            <h3>Gallery</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <h3>CircumVelo</h3>
+            <p>The dropdown list selection re­renders the map location by integrating the longitude and latitude coordinates from 2 APIs.</p>
             <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
+              <li><span class="button small">View</span></li>
             </ul>
           </div>
         </article>
         <article>
-          <a href="images/gallery/fulls/02.jpg" class="image">
-            <img src="images/gallery/thumbs/02.jpg" alt="" />
+          <a href="https://epic-jones-4619fa.netlify.com/" class="image" target="blank">
+            <img src={made2fitScreenshot} alt="screenshot of made2fit, a menswear website" />
           </a>
           <div class="caption">
-            <h3>Feugiat Lorem</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <h3>Made2Fit</h3>
+            <p>I was the project manager for this collaboration  with a team of UX designers and engineers.</p>
             <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
+              <li><span class="button small">View</span></li>
             </ul>
           </div>
         </article>
         <article>
-          <a href="images/gallery/fulls/03.jpg" class="image">
-            <img src="images/gallery/thumbs/03.jpg" alt="" />
+          <a href="http://reciplease.surge.sh" class="image" target="blank">
+            <img src={recipleaseScreenshot} alt="screenshot of the ReciPlease web app" />
           </a>
           <div class="caption">
-            <h3>Magna Amet</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <h3>ReciPlease</h3>
+            <p>I supervised the version control and composed the design for the frontend components in React and the backend in Express.</p>
             <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
+              <li><span class="button small">View</span></li>
             </ul>
           </div>
         </article>
         <article>
-          <a href="images/gallery/fulls/04.jpg" class="image">
-            <img src="images/gallery/thumbs/04.jpg" alt="" />
+          <a href="http://relux.netlify.com" class="image" target="blank">
+            <img src={reluxScreenshot} alt="screenshot of the ReciPlease web app" />
           </a>
           <div class="caption">
-            <h3>Sed Tempus</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <h3>ReLux</h3>
+            <p>Created in 3 days at Hackathon NYC, this site leveraged React, jQuery, javascript and a spreadsheet API.</p>
             <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
+              <li><span class="button small">View</span></li>
             </ul>
           </div>
         </article>
         <article>
-          <a href="images/gallery/fulls/05.jpg" class="image">
-            <img src="images/gallery/thumbs/05.jpg" alt="" />
+          <a href="http://reciplease.surge.sh" class="image" target="blank">
+            <img src={jsScreenshot} alt="screenshot of the website" />
           </a>
           <div class="caption">
-            <h3>Ultrices Magna</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+            <h3>JavaScript to Screen</h3>
+            <p>Fan Site for the Netflix show "Russian Doll" where the main storyline is a javascript loop.</p>
             <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/06.jpg" class="image">
-            <img src="images/gallery/thumbs/06.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Sed Tempus</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/07.jpg" class="image">
-            <img src="images/gallery/thumbs/07.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Ipsum Lorem</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/08.jpg" class="image">
-            <img src="images/gallery/thumbs/08.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Magna Risus</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/09.jpg" class="image">
-            <img src="images/gallery/thumbs/09.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Tempus Dolor</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/10.jpg" class="image">
-            <img src="images/gallery/thumbs/10.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Sed Etiam</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/11.jpg" class="image">
-            <img src="images/gallery/thumbs/11.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Magna Lorem</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <a href="images/gallery/fulls/12.jpg" class="image">
-            <img src="images/gallery/thumbs/12.jpg" alt="" />
-          </a>
-          <div class="caption">
-            <h3>Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-            <ul class="actions fixed">
-              <li><span class="button small">Details</span></li>
+              <li><span class="button small">View</span></li>
             </ul>
           </div>
         </article>
       </div>
-
+      <ul class="actions stacked" id="center-icons">
+        <li><a href="#resume" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
+      </ul>
   </section>
 
-{/* Six */}
-  <section class="wrapper style1 align-center">
-    <div class="inner">
-      <h2>Ipsum sed consequat</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
-      <div class="items style1 medium onscroll-fade-in">
-        <section>
-          <span class="icon style2 major fa-gem"></span>
-          <h3>Lorem</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-save"></span>
-          <h3>Ipsum</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-chart-bar"></span>
-          <h3>Dolor</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-wifi"></span>
-          <h3>Amet</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-cog"></span>
-          <h3>Magna</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon style2 major fa-paper-plane"></span>
-          <h3>Tempus</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-desktop"></span>
-          <h3>Aliquam</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-sync-alt"></span>
-          <h3>Elit</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-hashtag"></span>
-          <h3>Morbi</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-bolt"></span>
-          <h3>Turpis</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-envelope"></span>
-          <h3>Ultrices</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-        <section>
-          <span class="icon solid style2 major fa-leaf"></span>
-          <h3>Risus</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
-        </section>
-      </div>
+{/* Resume */}
+<section class="spotlight style2 orient-right content-align-right image-position-center onscroll-image-fade-in" id="resume">
+    <div class="content">
+      <h2 id="title">Resume</h2>
+      <p>👩🏾‍💻 As both a manager with over 10 years experience in the hospitality industry and a developer, I believe the best products and services focus on relationship building and customer service.</p>
+      <p>📄 Take a look at my resume <a href="https://www.docdroid.net/Qixrk1g/shenaesimmonsfseresume.pdf" target="blank" alt="my resume">here</a>.</p>
+      <img src={imgReact} />
+      <img src={javascript} />
+      <img src={html}/>
+      <img src={postgresql}/>
+      <img src={css}/>
+      <img src={node}/>
+      <img src={ruby}/>
+      <ul class="actions stacked">
+        <li><a href="#contact" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src={imgPortfolio} alt="picture of me pretending to spray graffiti" />
     </div>
   </section>
 
-{/* Seven */}
+{/* Contact */}
   <section class="wrapper style1 align-center">
-    <div class="inner medium">
-      <h2>Get in touch</h2>
-      <form method="post" action="#">
+    <div class="inner medium" id="contact">
+      <h2 id="title">Contact</h2>
+      <form method="post" action="https://formspree.io/hello@shenae.nyc">
         <div class="fields">
           <div class="field half">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" value="" />
+            <input type="text" name="name" id="name" placeholder="your name" />
           </div>
           <div class="field half">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" value="" />
+            <input type="email" name="email" id="email" placeholder="enter your email address" />
           </div>
           <div class="field">
             <label for="message">Message</label>
-            <textarea name="message" id="message" rows="6"></textarea>
+            <textarea name="message" id="message" rows="2"></textarea>
           </div>
         </div>
-        <ul class="actions special">
+        <ul class="actions special fit">
           <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
         </ul>
       </form>
@@ -303,8 +181,10 @@ function App() {
         <li><a href="https://www.linkedin.com/in/shenae-simmons/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
         <li><a href="mailto:hello@shenae.nyc" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
       </ul>
-      <p>&copy; by Shenae Simmons
-      <br/>Design: <a href="https://html5up.net">HTML5 UP</a></p>
+      <p>&copy; by Shenae Simmons</p>
+      <ul class="actions stacked">
+        <li><a href="#" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-up"></i></a></li>
+      </ul>
     </div>
   </footer>
 
