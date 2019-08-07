@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <div id="wrapper" class="divided">
 {/* Banner */}
-  <section class="banner style2 fullscreen image-position-center content-align-right onload-content-fade-up">
+  <section class="banner style2 fullscreen image-position-center content-align-left onload-content-fade-up">
     <div class="image">
       <img src={imgBanner} alt="picture of me in front of graffiti" />
       <div class="top-left"><h1 class="content-align-center" id="title">Shenae.NYC</h1>
