@@ -76,10 +76,9 @@ input, select, textarea {
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
 	  .banner > image {
-		width: 100%;
-		height: 100%;
+		width: 375px;
+		height: 600px;
 		text-align: center;
-		color: #eeeeee;
 		justify-content: center;
 		object-fit: cover;
 	  }
@@ -99,6 +98,13 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+		.banner > image {
+			width: 375px;
+			height: 600px;
+			text-align: center;
+			justify-content: center;
+			object-fit: cover;
+		  }
 
 	}
 
@@ -345,6 +351,14 @@ input, select, textarea {
 		h4 {
 			font-size: 1rem;
 		}
+
+		.banner > image {
+			width: 375px;
+			height: 600px;
+			text-align: center;
+			justify-content: center;
+			object-fit: cover;
+		  }
 
 	}
 
