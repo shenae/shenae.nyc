@@ -70,6 +70,22 @@ input, select, textarea {
 
 /* Basic */
 
+@media only screen 
+  and (min-device-width: 320px)
+  and (max-device-width: 812px)  
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  .banner > image {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		color: #eeeeee;
+		justify-content: center;
+		object-fit: cover;
+	  }
+
+  }
+
 	@-ms-viewport {
 		width: device-width;
 	}
