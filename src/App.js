@@ -144,8 +144,8 @@ function App() {
       <p>📄 Take a look at my resume <a href="https://www.docdroid.net/Qixrk1g/shenaesimmonsfseresume.pdf" target="blank" alt="my resume">here</a>.</p>
       <br />
       <br />
-      <img src={imgReact} />
-      <img src={javascript} />
+      <img src={imgReact}/>
+      <img src={javascript}/>
       <img src={html}/>
       <img src={postgresql}/>
       <img src={css}/>
