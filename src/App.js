@@ -52,6 +52,8 @@ function App() {
       <br />
       <br />
       <br />
+      <br />
+      <br />
       <ul class="actions stacked" id="center-icons">
         <li><a href="#portfolio" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
       </ul>
