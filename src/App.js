@@ -43,9 +43,10 @@ function App() {
     <div class="content">
       <h2 id="title">About</h2>
       <p>👋🏾 Hello! I'm Shenae, a resourceful full stack engineer based in NYC 🗽</p>
-      <p>🚴🏾‍ I try to <a href ="https://www.strava.com/athletes/24985427" target="blank">bike</a> as much as I can. I love to travel to experience different cultures and I speak 🇺🇸 🇫🇷 🇪🇸 🇯🇵.</p>
-      <p>👩🏾‍🍳 I enjoy cooking at home, going to movies with friends, and coding, of course 🖥️.</p>
-      <br />
+      <p>🚴🏾‍ I try to <a href ="https://www.strava.com/athletes/24985427" target="blank">bike</a> as much as I can. I love to travel to experience different cultures and I speak 🇺🇸 🇫🇷 🇪🇸 🇯🇵</p>
+      <p>👩🏾‍🍳 I enjoy cooking at home, going to movies with friends, and coding, of course 🖥️</p>
+
+      📰 I was just <a href ="http://bit.ly/34Po2V8" target="blank">interviewed on People.com</a> about making the career switch to engineering 👩🏾‍💻
       <br />
       <br />
       <br />
