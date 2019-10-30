@@ -15,6 +15,8 @@ import node from './images/node.png';
 import postgresql from './images/postgresql.png';
 import imgReact from './images/react.png';
 import ruby from './images/ruby_on_rails.png';
+import ntwrk_logo from './images/ntwrk_logo_original.png';
+import ntwrk_logo_small from './images/ntwrk_logo_small.png';
 
 function App() {
   return (
@@ -170,6 +172,7 @@ function App() {
   <section class="wrapper style1 align-center">
     <div class="inner medium" id="contact">
       <h2 id="title">Contact</h2>
+      <p>👇🏾 Sign up to be notified when my ebook on networking is available for purchase! 📖 </p>
       <form method="post" action="https://formspree.io/hello@shenae.nyc">
         <div class="fields">
           <div class="field half">
