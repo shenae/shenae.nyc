@@ -47,9 +47,8 @@ function App() {
       <p>👋🏾 Hello! I'm Shenae, a resourceful full stack engineer based in NYC 🗽</p>
       <p>🚴🏾‍ I try to <a href ="https://www.strava.com/athletes/24985427" target="blank">bike</a> as much as I can. I love to travel to experience different cultures and I speak 🇺🇸 🇫🇷 🇪🇸 🇯🇵</p>
       <p>👩🏾‍🍳 I enjoy cooking at home, going to movies with friends, and coding, of course 🖥️</p>
-
-      📰 I was just <a href ="http://bit.ly/34Po2V8" target="blank">interviewed on People.com</a> about making the career switch to engineering 👩🏾‍💻
-      <br />
+      <p>📰 I was just <a href ="http://bit.ly/34Po2V8" target="blank">interviewed on People.com</a> about making the career switch to engineering 👩🏾‍💻</p>
+      <p>✍🏾 Sign up <a href ="#ebook">here</a> to be notified when my eBook on networking, titled 'ntwrk' is available! 📕</p>
       <br />
       <br />
       <br />
@@ -172,7 +171,6 @@ function App() {
   <section class="wrapper style1 align-center">
     <div class="inner medium" id="contact">
       <h2 id="title">Contact</h2>
-      <p>👇🏾 Sign up to be notified when my ebook on networking is available for purchase! 📖 </p>
       <form method="post" action="https://formspree.io/hello@shenae.nyc">
         <div class="fields">
           <div class="field half">
@@ -212,6 +210,39 @@ function App() {
       </ul>
     </div>
   </footer>
+
+  {/* Ntwrk eBook */}
+  <section class="wrapper style1 align-center">
+    <div class="inner medium" id="ebook">
+      <h2 id="title">eBook</h2>
+      <img src={ntwrk_logo_small} alt="logo for eBook titled ntwrk" />
+      <br />
+      <br />
+      <p>👇🏾 Sign up to be notified when my ebook on networking is available for purchase! 📖 </p>
+      <form method="post" action="https://formspree.io/hello@shenae.nyc">
+        <div class="fields">
+          <div class="field half">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="your name" />
+          </div>
+          <div class="field half">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter your email address" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" value="Please email me when your eBook titled 'ntwrk' is available." rows="2"></textarea>
+          </div>
+        </div>
+        <ul class="actions special fit">
+          <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+        </ul>
+      </form>
+      <ul class="actions stacked">
+        <li><a href="#" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-up"></i></a></li>
+      </ul>
+    </div>
+  </section>
 
 </div>
 
