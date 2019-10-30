@@ -192,12 +192,14 @@ function App() {
           <li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
         </ul>
       </form>
-
+      <ul class="actions stacked" id="center-icons">
+        <li><a href="#footer" class="button default small smooth-scroll-middle"><i class="fas fa-arrow-down"></i></a></li>
+      </ul>
     </div>
   </section>
 
 {/* Footer */}
-  <footer class="wrapper style1 align-center">
+  <footer class="wrapper style1 align-center" id="footer">
     <div class="inner">
       <ul class="icons">
         <li><a href="http://www.github.com/shenae" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
